@@ -1,18 +1,18 @@
 import React from "react";
-import computeTimeByCityOrCountryOrZone from "./Test";
-import { formatDate } from "@kamesh-a/city-to-timezones";
+// import computeTimeByCityOrCountryOrZone from "./Test";
+// import { formatDate } from "@kamesh-a/city-to-timezones";
 // import { TimeZoneDropdown } from "@pinninti-sravanthi/time-zone-search";
 // import { TimeZoneDropdown } from "@adaptavant/timezone-picker";
 // import { getCountryForTimezone } from "countries-and-timezones";
 // import { format, formatInTimeZone } from "date-fns-tz";
-import date from "./Date";
+// import date from "./Date";
 
-const onChange = (e) => {
-  console.log("came here ", e);
-};
+// const onChange = (e) => {
+//   console.log("came here ", e);
+// };
 
 const App = () => {
-  console.log(" formatDate ", date);
+  // console.log(" formatDate ", date);
   // console.log("config ", config);
   // config.init.id = "app";
   // const tzList = getCountryTzInfo();
@@ -71,7 +71,7 @@ const App = () => {
   return (
     <div>
       <h1>Hello world! I am using React</h1>
-      <p>User Specific TimeZone: </p>
+      {/* <p>User Specific TimeZone: </p> */}
       {/* <div>
         <TimeZoneDropdown useTimeZone="US/Pacific" onChange={onChange} />
       </div> */}

@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@kamesh-a/city-to-timezones": "^0.2.22",
     "countries-and-timezones": "^3.4.0",
     "date-fns": "^2.29.3",
     "date-fns-tz": "^1.3.7"
