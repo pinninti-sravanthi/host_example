@@ -23,7 +23,7 @@ concurrency:
 
 jobs:
   # Single deploy job since we're just deploying
-  deploy:
+  build:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -48,7 +48,7 @@ jobs:
          path: dist
          if-no-files-found: error
          
-deploy:
+  deploy:
     runs-on: ubuntu-latest
     needs: build
     environment:
